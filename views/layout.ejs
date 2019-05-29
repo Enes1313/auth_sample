@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/public/css/style.css">
+        <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/public/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" 
+                    data-toggle="collapse" data-target="#my-navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">AuthSample</a>
+            </div>
+        
+            <div class="collapse navbar-collapse navbar-right" id="my-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Hakkında</a></li>
+                    <li><a href="#">Liste</a></li>
+                    <!--
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Konular
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Fizik</a></li>
+                                <li><a href="#">Matematik</a></li>
+                                <li><a href="#">Mekatronik</a></li>
+
+                                <li class="divider"></li>
+                                <li><a href="#">Karışık</a></li>
+                            
+                                <li class="divider"></li>
+                            </ul>
+                        </li>
+                    -->
+                </ul>
+            </div>
+        </nav>
+        <%- body%>
+        <script type="application/javascript" src="/public/js/jquery-3.1.1.min.js"></script>
+        <script type="application/javascript" src="/public/js/bootstrap.min.js"></script>
+    </body>
+</html>
